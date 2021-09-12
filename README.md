@@ -2,6 +2,7 @@ News API Search Written in Go
 
 ```
 git clone https://github.com/sudocraftio/go-news.git
+cd go-news
 ```
 
 ```
