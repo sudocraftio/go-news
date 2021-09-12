@@ -101,7 +101,7 @@ func searchHandler(newsapi *news.Client) http.HandlerFunc {
 }
 
 func main() {
-	err := godotenv.Load()
+	err := godotenv.Load("./config/.env")
 	if err != nil {
 		log.Println("Error loading .env file")
 	}
