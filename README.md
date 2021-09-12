@@ -15,7 +15,12 @@ docker-compose up -d
 
 Obtain API Key: https://newsapi.org/
 ```
+sudo mkdir config
 sudo nano config/.env
+```
+
+```
+docker-compose up -d 
 ```
 
 ```
