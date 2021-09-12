@@ -8,7 +8,7 @@ COPY go.sum ./
 COPY *.go ./
 COPY ./news ./news/
 COPY ./index.html ./
-COPY ./.env ./
+COPY ./config/.env ./config/
 
 RUN go build -o /go-news
 
