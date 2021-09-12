@@ -11,7 +11,6 @@ docker build . -t go-news
 
 Obtain API Key: https://newsapi.org/
 ```
-sudo mkdir config
 sudo nano config/.env
 ```
 
