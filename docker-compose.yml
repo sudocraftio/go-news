@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./config:/config/
+      - ./config/.env:/app/config/.env
 
 volumes:
   config:
