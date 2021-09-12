@@ -7,6 +7,7 @@ COPY go.mod ./
 COPY go.sum ./
 COPY *.go ./
 COPY ./news ./news/
+COPY ./assets ./assets/
 COPY ./index.html ./
 COPY ./config/.env ./config/
 
