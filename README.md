@@ -26,4 +26,14 @@ go get github.com/pilu/fresh
 fresh
 ```
 
-Docker Build coming...
+Docker Build- At project directory
+
+```
+sudo apt install docker.io
+docker build . -t go-news
+```
+
+```
+docker compose up -d
+```
+
