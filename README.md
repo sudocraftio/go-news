@@ -29,7 +29,6 @@ fresh
 Docker Build- At project directory
 
 ```
-sudo apt install docker.io
 docker build . -t go-news
 ```
 
