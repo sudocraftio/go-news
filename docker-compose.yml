@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  go-news:
+    image: go-news
+    ports:
+      - "80:80"
+    volumes:
+      - ./config:/config/
+
+volumes:
+  config:
