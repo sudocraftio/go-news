@@ -1,3 +1,5 @@
+News API Search Written in Go
+
 ```
 git clone https://github.com/sudocraftio/go-news.git
 ```
@@ -15,3 +17,6 @@ Obtain API Key: https://newsapi.org/
 sudo nano config/.env
 ```
 
+```
+curl localhost
+```
