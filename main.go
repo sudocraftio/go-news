@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/freshman-tech/news-demo-starter-files/news"
+	"github.com/sudocraftio/go-news/news"
 	"github.com/joho/godotenv"
 )
 
