@@ -9,10 +9,6 @@ cd go-news
 docker build . -t go-news
 ```
 
-```
-docker-compose up -d 
-```
-
 Obtain API Key: https://newsapi.org/
 ```
 sudo mkdir config
